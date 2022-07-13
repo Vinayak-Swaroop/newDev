@@ -1,5 +1,8 @@
 import ScrapeEngine
 
+def getHeaders():
+    return getATTRIBUTES().keys()
+
 def getURL():
     return 'https://dmoz-odp.org/Science/'
 
